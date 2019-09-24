@@ -1,0 +1,60 @@
+header {
+    height: 556px;
+    width: 100vw;
+    background: no-repeat url(/assets/images/Header/Heder_test.png);
+    background-size: cover;
+}
+
+#patternHeader{
+    width: 100vw;
+    height: 556px;
+    background: url(./assets/images/Header/pattern.png);
+    opacity: .16;
+}
+
+.iconArea {
+    width: 100vw;
+    height: 212px;
+    background: no-repeat url(./assets/images/icon_area/icon_bg.png);
+    background-size: cover;
+    opacity: .40;
+    box-shadow: -1px -5px 10px rgba(0,0,0,0.75), 1px 5px 7px rgba(0,0,0,0.75);
+}
+
+#patterniconArea{
+    width: 100vw;
+    height: 212px;
+    background: url(./assets/images/icon_area/pattern.png);
+    opacity: .16;
+}
+
+.section1 {
+    width: 100vw;
+    height: 509px;
+    background: no-repeat url(./assets/images/section1/sectionbg.png);
+    background-size: cover;
+}
+
+.section2 {
+    width: 100vw;
+    height: 499px;
+    background: no-repeat url(./assets/images/section2/section2bg.png);
+    background-size: cover;
+}
+
+#patternSection2{
+    width: 100vw;
+    height: 499px;
+    background: url(./assets/images/section2/patern_2.png);
+    opacity: .07;    
+}
+
+footer {
+    width: 100vw;
+    height: 64px;
+    background: no-repeat url(./assets/images/footer/footerbg.png);
+    background-size: cover;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+
+
