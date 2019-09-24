@@ -1,7 +1,7 @@
 header {
     height: 556px;
     width: 100vw;
-    background: no-repeat url(/assets/images/Header/Heder_test.png);
+    background: no-repeat url(./assets/images/Header/Heder_test.png);
     background-size: cover;
 }
 
