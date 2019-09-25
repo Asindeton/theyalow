@@ -1,8 +1,7 @@
 .wrapper {
-    background-origin: border-box;
-    max-width: 1300px;    
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1300px;  
+    margin: 0 auto;
+    
     overflow: auto;
     display: block;
     position: relative;
@@ -13,8 +12,7 @@
     width: 100%;
     background: url("./assets/images/Header/Heder_test.png");
     background-repeat: no-repeat;
-    background-size: cover;
-   
+    background-size: cover;  
 }
 
 .header .patternHeader{
@@ -23,24 +21,22 @@
     background-image: url("./assets/images/Header/pattern.png" );
     opacity: .16;
     z-index:2;
-    
 }
 
 .iconArea {
     width: 100%;
     height: 212px;
-    background: no-repeat url(./assets/images/icon_area/icon_bg.png);
+    background: rgba(235,235,235,0.4);
     background-size: cover;
-    opacity: .40;
-    box-shadow: -1px -5px 10px rgba(0,0,0,0.75), 1px 5px 7px rgba(0,0,0,0.75);
+    box-shadow: -1px -5px 10px rgba(0,0,0,0.3), 1px 5px 7px rgba(0,0,0,0.3);
+    position: relative;
 }
 
 .patterniconArea{
     width: 100%;
     height: 212px;
     background: url(./assets/images/icon_area/pattern.png);
-    opacity: .16;
-    
+    opacity: .07;
 }
 
 .section1 {
@@ -62,7 +58,6 @@
     height: 499px;
     background: url(./assets/images/section2/patern_2.png);
     opacity: .07;    
-    
 }
 
 footer {
@@ -75,24 +70,22 @@ footer {
 
 .mainLogo img{
    position: absolute;
-    
 }
 
 .logo{
     width: 83px;
     height: 83px;
     border-radius: 13px;
-    z-index: 2;
+    z-index: 1;
     top: 30px;
     left: 142px;
-    
+    opacity: .5;
 }
 
 .logoBg{
     width: 79px;
     height: 79px;
-    opacity: .5;
-    z-index: 1;
+    z-index: 2;
     top: 30px;
     left: 142px;
 }
@@ -108,6 +101,7 @@ header h1{
     left: 232px;
     position: absolute;
 }
+
 .navbar {
     background: url(./assets/images/Header/nav/Rectangle\ 2\ copy.svg);
     width: 453px;
@@ -116,8 +110,8 @@ header h1{
     left: 707px;
     position: absolute;
     z-index: 3;
-  
 }
+
 .navbarshadow1{
     background: url(./assets/images/Header/nav/Rectangle\ 2\ copy.svg);
     width: 453px;
@@ -129,6 +123,7 @@ header h1{
     opacity: .27;
     pointer-events: none;
 }
+
 .navbarshadow2{
     background: url(./assets/images/Header/nav/Rectangle\ 2\ copy.svg);
     width: 453px;
@@ -144,6 +139,7 @@ header h1{
 .navbar ul {
     display: flex;
 }
+
 .navbar ul li{
     background-color: #f5c506;
     width: 151px;
@@ -151,32 +147,30 @@ header h1{
     text-align: center;
     border-right: 1px solid #dcb105;
     line-height: 41px;
- 
 }
+
 .navbar ul li img{
     text-align: center;
-    
 }
 
 .navIcon1{
     width: 21px;
     height: 19px;
-    margin-right: 9px;
-    
-    
+    margin-right: 9px;      
 }
+
  .navIcon2{
     width: 19px;
     height: 19px;
     border-radius: 1px; 
     margin-right: 9px;   
 }
+
 .navIcon3{
     width: 24px;
     height: 18px;
     border-radius: 6px;  
     margin-right: 8px;
- 
 }
 
 .navbar ul li a{
@@ -187,6 +181,7 @@ header h1{
     font-family: "Segoe WP",Arial, Helvetica, sans-serif;
     z-index: 100;   
 }
+
 .navbar ul li a:hover{
     text-align: center;
     font-size: 17px;
@@ -210,6 +205,7 @@ h2{
     left: 750px;
     position: absolute;
 }
+
 .colorWhite{
     color: #ffffff;
 }
@@ -218,8 +214,7 @@ h2{
     top: 168px;
     left: 150px;
     position: absolute;
-    background: rgba(239, 220, 143, 0.03);
-    
+    background: rgba(239, 220, 143, 0.03); 
 }
 
 .video .playBottomElips{
@@ -240,14 +235,14 @@ h2{
     position: absolute;
     opacity: .70;
 }
+
 .video .playBottom:hover{
     width: 19px;
     height: 34px;
     top: 315px;
     left: 418px;
     position: absolute;
-    opacity: 1;
-    
+    opacity: 1;   
 }
 
 .video .secondPlayRectangle{
@@ -264,6 +259,7 @@ h2{
     position: absolute;
     opacity: .36;
 }
+
 .video .secondPlayBottom:hover{
     width: 10px;
     height: 17px;
@@ -272,43 +268,115 @@ h2{
     position: absolute;
     opacity: 1;
 }
+
 .video .videoBarNow{
-    top: 454px;
+    top: 456px;
     left: 230px;
     position: absolute;
 }
+
 .video .videoBarAll{
     top: 454px;
     left: 230px;
     position: absolute;
     opacity: 0.3;
 }
+
 .prePage .prePageBG{
-    margin-left: 0 !important;
     top: 300px;
     left: 0px;
-    position: fixed;
+    position: absolute;
 }
 
 .prePage .prePageBottom{
-    margin-left: 0 !important;
     top: 319px;
     left: 8px;
-    position: fixed;
+    position: absolute;
     z-index: 2;
 }
+
 .nextPage .nextPageBG{
-    margin-right: 0 !important;
     top: 300px;
     right: 0px;
-    position: fixed;
-
+    position: absolute;
 }
+
 .nextPage .nextPageBottom{
-    margin-right: 0 !important;
     top: 319px;
     right: 8px;
-    position: fixed;
+    position: absolute;
     z-index: 2;
 }
 
+.iconImage{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 18.9%;
+}
+
+.iconBDImg{
+    top: 61px;
+    width: 109px;
+    height: 74px;
+    margin-left: 253.7px;;
+}
+
+.iconCustImg{
+    top: 37px;
+    width: 91px;
+    height: 95px;
+    margin-left: 242.8px;
+}
+
+.iconItsFreeImg{
+    top: 54px;
+    width: 81px;
+    height: 83px;
+    margin-left: 228.8px;
+}
+
+.iconText{
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 229px;
+    font-size: 27px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-family: "Segoe UI";
+    font-weight: 300;
+    
+}
+
+.iconBDtext{
+    
+}
+
+.iconCusttext{
+    margin-left: 175.6px;
+}
+
+.iconItsFreetext{
+    margin-left: 199.1px;
+}
+
+/*.iconHorizontalLine{
+    position: absolute;   
+    top: 0;
+    width: 1px;
+    height: 213px;    
+}
+.iconHorizontalLine1{
+    left: 139px;
+}
+.iconHorizontalLine2{
+    left: 480px;
+}
+.iconHorizontalLine3{
+    left: 819px;
+}
+.iconHorizontalLine4{
+    left: 1300px;
+}*/
