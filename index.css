@@ -15,7 +15,7 @@
     background-size: cover;  
 }
 
-.header .patternHeader{
+.header .patternHeader {
     width: 100%;
     height:  556px;
     background-image: url("./assets/images/Header/pattern.png" );
@@ -32,7 +32,7 @@
     position: relative;
 }
 
-.patterniconArea{
+.patterniconArea {
     width: 100%;
     height: 212px;
     background: url(./assets/images/icon_area/pattern.png);
@@ -44,6 +44,7 @@
     height: 509px;
     background: no-repeat url(./assets/images/section1/sectionbg.png);
     background-size: cover;
+    position: relative;
 }
 
 .section2 {
@@ -53,7 +54,7 @@
     background-size: cover;
 }
 
-.patternSection2{
+.patternSection2 {
     width: 100%;
     height: 499px;
     background: url(./assets/images/section2/patern_2.png);
@@ -72,7 +73,7 @@ footer {
    position: absolute;
 }
 
-.logo{
+.logo {
     width: 83px;
     height: 83px;
     border-radius: 13px;
@@ -82,7 +83,7 @@ footer {
     opacity: .5;
 }
 
-.logoBg{
+.logoBg {
     width: 79px;
     height: 79px;
     z-index: 2;
@@ -90,7 +91,7 @@ footer {
     left: 142px;
 }
 
-header h1{
+header h1 {
     font-size: 41px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -112,7 +113,7 @@ header h1{
     z-index: 3;
 }
 
-.navbarshadow1{
+.navbarshadow1 {
     background: url(./assets/images/Header/nav/Rectangle\ 2\ copy.svg);
     width: 453px;
     height: 41px;
@@ -124,7 +125,7 @@ header h1{
     pointer-events: none;
 }
 
-.navbarshadow2{
+.navbarshadow2 {
     background: url(./assets/images/Header/nav/Rectangle\ 2\ copy.svg);
     width: 453px;
     height: 41px;
@@ -140,7 +141,7 @@ header h1{
     display: flex;
 }
 
-.navbar ul li{
+.navbar ul li {
     background-color: #f5c506;
     width: 151px;
     height: 41px;
@@ -149,40 +150,41 @@ header h1{
     line-height: 41px;
 }
 
-.navbar ul li img{
+.navbar ul li img {
     text-align: center;
 }
 
-.navIcon1{
+.navIcon1 {
     width: 21px;
     height: 19px;
     margin-right: 9px;      
 }
 
- .navIcon2{
+ .navIcon2 {
     width: 19px;
     height: 19px;
     border-radius: 1px; 
     margin-right: 9px;   
 }
 
-.navIcon3{
+.navIcon3 {
     width: 24px;
     height: 18px;
     border-radius: 6px;  
     margin-right: 8px;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-align: center;
     font-size: 17px;
     letter-spacing: 0px;
     color: #9b7d08;
     font-family: "Segoe WP",Arial, Helvetica, sans-serif;
     z-index: 100;   
+    text-decoration: none;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     text-align: center;
     font-size: 17px;
     letter-spacing: 0px;
@@ -192,7 +194,7 @@ header h1{
     background: #000000;   
 }
 
-h2{
+h2 {
     text-transform: uppercase;
     font-size: 63px;
     letter-spacing: 1px;
@@ -206,7 +208,7 @@ h2{
     position: absolute;
 }
 
-.colorWhite{
+.colorWhite {
     color: #ffffff;
 }
 
@@ -217,7 +219,7 @@ h2{
     background: rgba(239, 220, 143, 0.03); 
 }
 
-.video .playBottomElips{
+.video .playBottomElips {
     width: 67px;
     height: 67px;
     border-radius: 33px;
@@ -227,7 +229,7 @@ h2{
     opacity: .70;
 }
 
-.video .playBottom{
+.video .playBottom {
     width: 19px;
     height: 34px;
     top: 315px;
@@ -236,7 +238,7 @@ h2{
     opacity: .70;
 }
 
-.video .playBottom:hover{
+.video .playBottom:hover {
     width: 19px;
     height: 34px;
     top: 315px;
@@ -245,13 +247,13 @@ h2{
     opacity: 1;   
 }
 
-.video .secondPlayRectangle{
+.video .secondPlayRectangle {
     top: 446px;
     left: 179px;
     position: absolute;
 }
 
-.video .secondPlayBottom{
+.video .secondPlayBottom {
     width: 10px;
     height: 17px;
     top: 451px;
@@ -260,7 +262,7 @@ h2{
     opacity: .36;
 }
 
-.video .secondPlayBottom:hover{
+.video .secondPlayBottom:hover {
     width: 10px;
     height: 17px;
     top: 451px;
@@ -269,74 +271,81 @@ h2{
     opacity: 1;
 }
 
-.video .videoBarNow{
+.video .videoBarNow {
     top: 456px;
     left: 230px;
     position: absolute;
 }
 
-.video .videoBarAll{
+.video .videoBarAll {
     top: 454px;
     left: 230px;
     position: absolute;
     opacity: 0.3;
 }
 
-.prePage .prePageBG{
+.prePage .prePageBG {
     top: 300px;
     left: 0px;
     position: absolute;
 }
 
-.prePage .prePageBottom{
+.prePage .prePageBottom {
     top: 319px;
     left: 8px;
     position: absolute;
     z-index: 2;
 }
 
-.nextPage .nextPageBG{
+.nextPage .nextPageBG {
     top: 300px;
     right: 0px;
     position: absolute;
 }
 
-.nextPage .nextPageBottom{
+.nextPage .nextPageBottom {
     top: 319px;
     right: 8px;
     position: absolute;
     z-index: 2;
 }
 
-.iconImage{
+.nextPageBottom:hover {
+    background: black;
+}
+.prePageBottom:hover {
+    background: black;
+}
+
+.iconImage {
     width: 100%;
     display: block;
     position: absolute;
     top: 18.9%;
 }
 
-.iconBDImg{
+.iconBDImg {
     top: 61px;
     width: 109px;
     height: 74px;
     margin-left: 253.7px;;
 }
 
-.iconCustImg{
+.iconCustImg {
     top: 37px;
     width: 91px;
     height: 95px;
     margin-left: 242.8px;
 }
 
-.iconItsFreeImg{
+.iconItsFreeImg {
     top: 54px;
     width: 81px;
     height: 83px;
     margin-left: 228.8px;
 }
 
-.iconText{
+.iconText {
     width: 100%;
     display: block;
     position: absolute;
@@ -350,10 +359,6 @@ h2{
     
 }
 
-.iconBDtext{
-    
-}
-
 .iconCusttext{
     margin-left: 175.6px;
 }
@@ -362,21 +367,171 @@ h2{
     margin-left: 199.1px;
 }
 
-/*.iconHorizontalLine{
+.iconHorizontalLine {
     position: absolute;   
     top: 0;
     width: 1px;
     height: 213px;    
 }
-.iconHorizontalLine1{
-    left: 139px;
+
+.iconHorizontalLine1 {
+    position: absolute;
+    margin-left: 139px;
 }
-.iconHorizontalLine2{
-    left: 480px;
+
+.iconHorizontalLine2 {
+    position: absolute;
+    margin-left: 480px;
 }
-.iconHorizontalLine3{
+
+.iconHorizontalLine3 {
+    position: absolute;
     left: 819px;
 }
-.iconHorizontalLine4{
-    left: 1300px;
-}*/
+
+.iconHorizontalLine4 {
+    position: absolute;
+    left: 1159px;
+}
+
+.section1 h3 {
+    font-size: 37px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+
+.section1 p {
+    width: 341px;
+    height: 233px;
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP",Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    position: absolute;
+    top: 104px;
+    left: 139px;
+    padding: 25px 38px 34px 31px;
+    z-index: 10;
+}
+
+.textBgSection1 {
+    position: absolute;
+    left: 139px;
+    top: 110px;
+}
+
+.plusSection1 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    opacity: .7;
+    left: 455px;
+    top: 319px;
+    z-index: 10;
+}
+
+.plusSection1:hover {
+    opacity: 1;
+}
+
+.mainImageSection1 {
+    position: absolute;
+    left: 480px;
+    top: 110px;
+}
+
+.ellipsePlayBottomSection1 {
+    position: absolute;
+    left: 608px;
+    top: 201px;
+    opacity: .72;
+}
+
+.playBottomSection1 {
+    position: absolute;
+    left: 633px;
+    top: 216px;
+}
+
+.playBottomSection1:hover {
+    opacity: .3;
+}
+
+.twitterBG {
+    position: absolute;
+    left: 829px;
+    top: 110px;
+}
+
+.twitterImg {
+    position: absolute;
+    left: 906px;
+    top: 168px;
+}
+
+.twitterPlus {
+    position: absolute;
+    left: 1132px;
+    top: 319px;
+    opacity: .72;
+}
+
+.twitterPlus:hover {
+    opacity: 1;
+}
+
+.twitterNumber {
+    position: absolute;
+    left: 1115px;
+    top: 130px;
+}
+
+.dateBG {
+    position: absolute;
+    left: 139px;
+    top: 343px; 
+}
+
+.dateDay{
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe UI",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 169px;
+    top: 355px;
+}
+
+.dateMonth {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 38px;
+    color: #b26529;
+    font-family: "Segoe UI",Arial, Helvetica, serif;
+    position: absolute;
+    left: 172px;
+    top: 392px;
+}
+
+.sladerBG{
+    position: absolute;
+    left: 211px;
+    top: 469px;
+    opacity: .48;
+}
+
+.slader {
+    position: absolute;
+    left: 458px;
+    top: 469px;
+}
