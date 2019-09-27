@@ -1,8 +1,6 @@
 .wrapper {
     max-width: 1300px;  
     margin: 0 auto;
-    
-    overflow: auto;
     display: block;
     position: relative;
 }
@@ -52,6 +50,7 @@
     height: 499px;
     background: no-repeat url(./assets/images/section2/section2bg.png);
     background-size: cover;
+    position: relative;
 }
 
 .patternSection2 {
@@ -67,6 +66,7 @@ footer {
     background: no-repeat url(./assets/images/footer/footerbg.png);
     background-size: cover;
     box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+    position: relative;
 }
 
 .mainLogo img{
@@ -534,4 +534,157 @@ h2 {
     position: absolute;
     left: 458px;
     top: 469px;
+}
+
+h4 {
+    font-size: 43px;
+    letter-spacing: 0px;
+    color: #f5c506;
+    font-family: "PT Sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 348px;
+    top: 43px;
+    text-transform: uppercase;
+}
+
+.desktopImg {
+    position: absolute;
+    left: 156px;
+    top: 135px;
+    
+}
+
+.laptopImg {
+    position: absolute;
+    left: 504px;
+    top: 178px;
+}
+
+.phoneImg {
+    position: absolute;
+    left: 659px;
+    top: 289px;
+}
+
+.ellipseSector2 {
+    position: absolute;
+    left: 134px;
+    top: 92px;
+}
+
+.ellipsText {
+    width: 105px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow",Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: absolute;
+    left: 145px;
+    top: 147px;
+    z-index: 5;
+}
+
+.text1 {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 812px;
+    top: 187px;
+}
+
+.text2 {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 812px;
+    top: 234px;
+}
+
+.text3 {
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 812px;
+    top: 301px;
+}
+
+.text4{
+    width: 352px;
+    height: 45px;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #a9a9a7;
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: absolute;
+    left: 812px;
+    top: 351px;
+}
+
+.textMarker1 {
+    position: absolute;
+    left: 778px;
+    top: 187px;
+}
+
+.textMarker1 + .textMarker1 {
+    position: absolute;
+    top: 238px;
+}
+
+.textMarker1 + .textMarker1 + .textMarker1 {
+    position: absolute;
+    top: 304px;
+}
+
+.textMarker1 + .textMarker1 + .textMarker1 + .textMarker1 {
+    position: absolute;
+    top: 355px;
+}
+
+.footerLogo{
+    width: 54px;
+    height: 54px;
+    border-radius: 9px;
+    position: absolute;
+    left: 141px;
+    top: 1px;
+}
+
+.footerLogoBG {
+    width: 51px;
+    height: 51px;
+    position: absolute;
+    left: 141px;
+    top: 1px;
+    opacity: .5;
+}
+
+.footerName {
+  font-size: 29px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+  text-align: center;
+  position: absolute;
+  left: 203px;
+  top: 23px;
 }
