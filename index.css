@@ -1,3 +1,4 @@
+
 .wrapperDesktop {
     max-width: 1300px;  
     margin: 0 auto;
@@ -690,8 +691,6 @@ h4 {
   top: 16px;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Open+Sans:400,700|PT+Sans|PT+Sans+Narrow:700&display=swap');
-
 @media screen and (max-width: 1300px) {
     .wrapperDesktop {
         display:none;
@@ -790,6 +789,7 @@ h4 {
         margin-left: 57px;
         margin-right: 0;
     }
+
     .mobileNavBar ul li:hover{
         background: #000000;
         color:  white;
@@ -985,10 +985,6 @@ h4 {
         left: 470px;
     }
 
-    .mobileSection1 img + img + img + img:hover {
-        
-    }
-
     .twitterAreaMobile {
         position: relative;
         height: 233px;
@@ -1156,6 +1152,3 @@ h4 {
         opacity: .45;
     }
 }
-
-
-
