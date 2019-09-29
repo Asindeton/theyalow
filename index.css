@@ -809,6 +809,10 @@ h4 {
         opacity: .7;
     }
 
+    .videoMobile .videoYellowColor {
+        position: absolute;
+    }
+
     .videoMobile .playBottomVideo {
         position: absolute;
         top: 145px;
@@ -846,7 +850,9 @@ h4 {
     .videoMobile .videoBarNow{
         position: absolute;
         top: 286px;
-        left: 134px;
+        left: 133px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 
     .videoMobile .videoVolume{
@@ -865,6 +871,7 @@ h4 {
         position: absolute;
         top: 31px;
         left: 42px;
+        z-index: 6;
     }
     
     .midBar img + img {
@@ -879,6 +886,24 @@ h4 {
         left: 494px;
     }
 
+    .midBar .midBarPatternMobil1 {
+        position: absolute;
+        background-image: url(./assets/images/MobailVersion/Mid_bar/pattern.png);
+        left: 0px;
+        top: -4px;
+        z-index: 1;
+        opacity: .2;
+    }
+    
+    .midBar .midBarPatternMobil2 {
+        position: absolute;
+        background-image: url(./assets/images/MobailVersion/Mid_bar/pattern.png);
+        left: 0px;
+        top: -8px;
+        z-index: 2;
+        opacity: .2;
+    }
+    
     .midBar ul {
         display: flex;
         text-align: center;
@@ -893,6 +918,7 @@ h4 {
         text-align: center;
         margin-top: 116px;
         margin-left: 18px;
+        z-index: 124;
     }
 
     .midBar ul li + li {
@@ -935,10 +961,15 @@ h4 {
         left: 284px;
     }
 
+    .mobileSection1 img:hover {
+        opacity: .3;
+    }
+
     .mobileSection1 img + img {
         position: absolute;
         top: -1px;
         left: 317px;
+        opacity: 1;
     }
 
     .mobileSection1 img + img + img {
@@ -955,7 +986,7 @@ h4 {
     }
 
     .mobileSection1 img + img + img + img:hover {
-        opacity: 0.3;
+        
     }
 
     .twitterAreaMobile {
@@ -974,15 +1005,14 @@ h4 {
     .twitterAreaMobile ul {
         position: absolute;
         top: 23px;
-        left: 324px;
+        left: 318px;
         
     }
 
     .twitterAreaMobile ul li {
-        width: 284px;
+        width: 290px;
         height: 42px;
         background-image: url("./assets/images/MobailVersion/Twitter/Rounded Rectangle 2.svg");
-       
         border-radius: 10px;
         margin-bottom: 14px;
         position: relative;
@@ -991,11 +1021,12 @@ h4 {
     .twitterAreaMobile ul li span {
         top: 9px;
         position: absolute;
-        left: 29px;
+        left: 33px;
         font-size: 13px;
         letter-spacing: 0px;
+        line-height: 14px;
         color: #8f8e8e;
-        font-family: "Arial";
+        font-family: "Arial", Helvetica, sans-serif;
     }
 
     .twitterAreaMobile ul li + li {
